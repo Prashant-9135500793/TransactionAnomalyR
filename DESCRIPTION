@@ -1,0 +1,28 @@
+Package: TransactionAnomalyR
+Type: Package
+Title: Real-Time Credit Card Fraud Detection using Statistical and ML
+        Methods
+Version: 1.0.0
+Date: 2026-04-04
+Authors@R: person(
+    given = "Prashant",
+    family = "Shekhar",
+    role = c("aut", "cre"),
+    email = "prashantsh22@iitk.ac.in")
+Description: Credit card fraud detection using the Kaggle Credit Card Fraud
+    dataset. Implements PCA dimensionality reduction, EM Algorithm for mixture
+    modelling, Logistic Regression via Gradient Descent, kNN anomaly scoring,
+    Bootstrap threshold estimation, CLT-based confidence intervals, and
+    k-fold Cross-Validation. Includes a full Shiny dashboard for interactive
+    analysis. Designed for both research and real-time production use.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Depends: R (>= 4.1.0)
+Imports: stats, ggplot2, shiny, shinydashboard, DT, plotly, dplyr
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2026-04-04 00:33:02 UTC; prashantshekhar
+Author: Prashant Shekhar [aut, cre]
+Maintainer: Prashant Shekhar <prashantsh22@iitk.ac.in>
